@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mozol Péter">
+    <meta name="description" content="Heria Cars Autós Bolt">
+    <title>Heria Cars</title>
+    <link href="kepek/logo.png" rel="icon" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <p>Heria Cars</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="kezdolap.html">Kezdőlap</a></li>
+            <li><a href="autok.html">Autóink</a></li>
+            <li><a href="rendeles.html">Rendelés</a></li>
+            <li><a href="jatek.html"  id="active">Quiz</a></li>
+        </ul>
+    </nav>
+    <div id="mindenes">
+		<div id="brock">
+			<h2>Autós Quiz</h2>
+                    Mikor alapították a BMW-t? <br>
+                    <label><input type="radio" name="bmw" id="1910"><span id="false1">1910</span></label><br>
+                    <label><input type="radio" name="bmw" id="1916"><span id="true1">1916</span></label><br>
+                    <label><input type="radio" name="bmw" id="1946"><span id="false2">1946</span></label><br>
+            
+                    
+                    Milyen fajta Lamborghini nincs? <br>
+                    <label><input type="radio" name="lambo" id="Huracán"><span id="false3">Huracán</span></label><br>
+                    <label><input type="radio" name="lambo" id="Berlinetta"><span id="true2">Berlinetta</span></label><br>
+                    <label><input type="radio" name="lambo" id="Sesto Elemento"><span id="false4">Sesto Elemento</span></label><br>
+
+                    Melyik autót rakták piacra legkesobb? <br>
+                    <label><input type="radio" name="piac" id="Nissan 350z"><span id="false5">Nissan 350z</span></label><br>
+                    <label><input type="radio" name="piac" id="Toyota Supra"><span id="true3">Toyota Supra</span></label><br>
+                    <label><input type="radio" name="piac" id="BMW440"><span id="false6">BMW440</span></label><br>
+                    
+                    Melyik tuning vállalattal dolgozik együtt cégünk? <br>
+                    <label><input type="radio" name="tune" id="Rocket Bunny"><span id="false7">Rocket Bunny</span></label><br>
+                    <label><input type="radio" name="tune" id="Liberty Walk"><span id="true4">Liberty Walk</span></label><br>
+                    <label><input type="radio" name="tune" id="Scat Pack"><span id="false8">Scat Pack</span></label><br>
+                
+                    Melyik Nissan GTR kapta meg skyline becenevet? <br>
+                    <label><input type="radio" name="sky" id="R33"><span id="false9">R33</span></label><br>
+                    <label><input type="radio" name="sky" id="R34"><span id="true5">R34</span></label><br>
+                    <label><input type="radio" name="sky" id="R35"><span id="false10">R35</span></label><br>
+                    <p>
+                    <input type="button" value="Elküldés" class="button"  id="yourbutton" onclick="bekuldes()">
+                    </p>
+                    <p id="pontszam"></p>
+        </div>
+	</div>
+    <footer>
+        <p>Ez az oldal pusztán gyakorlásra szolgál.</p>
+    </footer>
+</body>
+</html>

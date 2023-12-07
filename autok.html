@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mozol Péter">
+    <meta name="description" content="Heria Cars Autós Bolt">
+    <title>Heria Cars</title>
+    <link href="kepek/logo.png" rel="icon" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+	<script src="script/jquery-3.7.1.min.js"></script>
+	<script src="script/galleria-1.6.1/dist/galleria.js"></script>
+	<script src="script/galleria-1.6.1/dist/themes/classic/galleria.classic.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('#images').galleria(
+			width=500,
+			height=500
+			);
+		});
+		</script> 
+</head>
+<body>
+    <header>
+        <p>Heria Cars</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="kezdolap.html">Kezdőlap</a></li>
+            <li><a href="autok.html" id="active">Autóink</a></li>
+            <li><a href="rendeles.html">Rendelés</a></li>
+			<li><a href="jatek.html">Quiz</a></li>
+        </ul>
+    </nav>
+    <div id="minden">	
+		<div id="images" class="galleria">
+			<img src="kepek/bmwm4.jpg" alt="Bmw" title="BMW M4">
+			<img src="kepek/huracan.jpg" alt="Lambo" title="Lamborghini Huracan">
+			<img src="kepek/vwsiroc.jpg" alt="Sirocco" title="Volkswagen Sirocco">
+			<img src="kepek/mk4supie.jpg" alt="Supra" title="Toyota Supra">
+			<img src="kepek/nissabgtrlw.jpeg" alt="R35" title="Nissan GTR">
+			<img src="kepek/scatpack.jpg" alt="ScatPack" title="Dodge Charger">
+			<img src="kepek/type.jpg" alt="TypeR" title="Honda Civic">
+			<img src="kepek/350z.avif" alt="350z" title="Nissan 350z">
+			<img src="kepek/demon.jpg" alt="demon" title="DOdge Demon SRT">
+		</div>			
+	</div>
+    <footer>
+        <p>Ez az oldal pusztán gyakorlásra szolgál.</p>
+    </footer>
+</body>
+</html>
